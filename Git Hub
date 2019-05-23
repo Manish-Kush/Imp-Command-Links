@@ -1,0 +1,64 @@
+
+Git Hub
+-------
+
+=>How To Upload Files To Github through Git Bash Terminal. Basic Repository Creation, and Adding Files
+https://www.youtube.com/watch?v=BWiAUtwtqjM
+
+=======================================================================================================
+
+=>Adding an existing project to GitHub using the command line
+https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line
+
+=>Commands to install git on linux
+---------------------------------
+Step 1 — Update Default Packages
+	sudo apt update
+
+Step 2 — Install Git
+	sudo apt install git
+
+Step 3 — Confirm Successful Installation
+	git --version
+
+Step 4 — Set Up Git
+	git config --global user.name "Your Name"
+	git config --global user.email "youremail@domain.com"
+
+If you need to edit this file, you can use a text editor such as nano:
+	nano ~/.gitconfig
+
+=======================================================================================================
+
+=>https://git-scm.com/download/linux
+
+Download for Linux and Unix
+
+It is easiest to install Git on Linux using the preferred package manager of your Linux distribution. If you prefer to build from source, you can find the tarballs on kernel.org.
+Debian/Ubuntu
+
+For the latest stable version for your release of Debian/Ubuntu
+# apt-get install git
+
+For Ubuntu, this PPA provides the latest stable upstream Git version
+# add-apt-repository ppa:git-core/ppa # apt update; apt install git
+
+=======================================================================================================
+
+…or create a new repository on the command line
+
+echo "# Imp-Command-Links" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Manish-Kush/Imp-Command-Links.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/Manish-Kush/Imp-Command-Links.git
+git push -u origin master
+
+========================================================================================================
+
+
